@@ -582,7 +582,7 @@ function initializeConfig() {
     }
 }
 
-// Apply environment configuration and validate
+// Apply environment configuration 
 initializeConfig();
 
 // Make configuration globally available
@@ -594,4 +594,4 @@ Object.freeze(CONFIG);
 // Export for module systems (if needed)
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
-}
+}// Add initial configuration in config.js
