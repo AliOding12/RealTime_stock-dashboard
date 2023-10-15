@@ -31,7 +31,7 @@ class StockDashboard {
 
     async init() {
         try {
-            // Initialize DOM elements
+            // Initialize DOM 
             this.initializeDOM();
             
             // Load configuration and preferences
@@ -838,4 +838,4 @@ class StockDashboard {
 
     saveSettings() {
         // Get
-    }}
+    }}// Add initial dashboard layout in dashboard.js
