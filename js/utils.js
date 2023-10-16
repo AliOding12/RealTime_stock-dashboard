@@ -1518,7 +1518,7 @@ if (STOCK_CONFIG.DEBUG.ENABLED) {
     window.error = (message, data) => Utils.log('error', message, data);
 }
 
-// Export for module systems (if needed)
+// Export for module systems (if needed) else use it the way it is 
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = Utils;
-}
+}// Add utility functions for data processing in utils.js
