@@ -147,7 +147,7 @@ class StockCard {
     }
 
     bindEvents() {
-        // Refresh button
+        // Refresh buttons are to be here
         this.element.querySelector('.btn-refresh').addEventListener('click', () => {
             this.refresh();
         });
@@ -541,4 +541,4 @@ if (typeof module !== 'undefined' && module.exports) {
     module.exports = StockCard;
 } else {
     window.StockCard = StockCard;
-}
+}// Add stock card component in stock-card.js
