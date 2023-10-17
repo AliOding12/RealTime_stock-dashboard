@@ -595,3 +595,4 @@ Object.freeze(CONFIG);
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = CONFIG;
 }// Add initial configuration in config.js
+// Add API endpoint configurations in config.js
