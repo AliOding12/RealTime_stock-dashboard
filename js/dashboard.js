@@ -839,3 +839,4 @@ class StockDashboard {
     saveSettings() {
         // Get
     }}// Add initial dashboard layout in dashboard.js
+// Add stock data display to dashboard.js
