@@ -572,3 +572,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add PDF export for stock data
 // Add import support for stock data
 // Add final optimizations to stock-card.js
+// Add stock card component in stock-card.js
