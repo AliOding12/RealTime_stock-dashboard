@@ -622,3 +622,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add PDF export settings
 // Add import settings in config.js
 // Add final configuration tweaks
+// Add initial configuration in config.js
