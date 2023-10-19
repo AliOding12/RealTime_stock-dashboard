@@ -542,3 +542,4 @@ if (typeof module !== 'undefined' && module.exports) {
 } else {
     window.StockCard = StockCard;
 }// Add stock card component in stock-card.js
+// Add stock price update logic to stock-card.js
