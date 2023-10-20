@@ -1523,3 +1523,4 @@ if (typeof module !== 'undefined' && module.exports) {
     module.exports = Utils;
 }// Add utility functions for data processing in utils.js
 // Add date formatting utilities in utils.js
+// Add error handling utilities in utils.js
