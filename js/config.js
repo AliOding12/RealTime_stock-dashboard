@@ -623,3 +623,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add import settings in config.js
 // Add final configuration tweaks
 // Add initial configuration in config.js
+// Add API endpoint configurations in config.js
