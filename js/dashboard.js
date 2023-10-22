@@ -841,3 +841,4 @@ class StockDashboard {
     }}// Add initial dashboard layout in dashboard.js
 // Add stock data display to dashboard.js
 // Add real-time updates to dashboard.js
+// Add user preferences to dashboard.js
