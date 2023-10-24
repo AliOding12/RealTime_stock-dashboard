@@ -2,3 +2,4 @@
 // Add chart rendering logic to chart-manager.js
 // Add support for multiple chart types in chart-manager.js
 // Optimize chart rendering performance
+// Add zoom functionality to charts
