@@ -1525,3 +1525,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add date formatting utilities in utils.js
 // Add error handling utilities in utils.js
 // Add data validation utilities in utils.js
+// Add API rate limiting utilities in utils.js
