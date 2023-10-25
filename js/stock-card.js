@@ -545,3 +545,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add stock price update logic to stock-card.js
 // Add historical data display to stock-card.js
 // Add stock comparison feature to stock-card.js
+// Add stock alerts in stock-card.js
