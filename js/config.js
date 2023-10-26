@@ -624,3 +624,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add final configuration tweaks
 // Add initial configuration in config.js
 // Add API endpoint configurations in config.js
+// Add caching configuration in config.js
