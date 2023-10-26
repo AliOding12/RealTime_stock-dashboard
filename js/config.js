@@ -598,3 +598,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add API endpoint configurations in config.js
 // Add caching configuration in config.js
 // Add environment-specific settings in config.js
+// Add custom chart settings in config.js
