@@ -599,3 +599,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add caching configuration in config.js
 // Add environment-specific settings in config.js
 // Add custom chart settings in config.js
+// Add error reporting settings in config.js
