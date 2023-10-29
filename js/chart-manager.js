@@ -4,3 +4,4 @@
 // Optimize chart rendering performance
 // Add zoom functionality to charts
 // Add export chart feature to chart-manager.js
+// Add interactive tooltips to charts
