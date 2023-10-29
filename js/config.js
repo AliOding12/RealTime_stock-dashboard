@@ -625,3 +625,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add initial configuration in config.js
 // Add API endpoint configurations in config.js
 // Add caching configuration in config.js
+// Add environment-specific settings in config.js
