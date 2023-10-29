@@ -844,3 +844,4 @@ class StockDashboard {
 // Add user preferences to dashboard.js
 // Add chart toggle in dashboard.js
 // Add export dashboard data feature
+// Add responsive layout to dashboard.js
