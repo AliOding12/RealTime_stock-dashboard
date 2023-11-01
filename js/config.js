@@ -600,3 +600,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add environment-specific settings in config.js
 // Add custom chart settings in config.js
 // Add error reporting settings in config.js
+// Add dark mode settings in config.js
