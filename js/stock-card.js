@@ -548,3 +548,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add stock alerts in stock-card.js
 // Optimize stock card rendering
 // Add stock metrics display
+// Add theme support to stock-card.js
