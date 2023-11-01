@@ -6,3 +6,4 @@
 // Add export chart feature to chart-manager.js
 // Add interactive tooltips to charts
 // Add dark mode support to charts
+// Add custom chart colors
