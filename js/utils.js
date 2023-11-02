@@ -1530,3 +1530,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add data caching utilities in utils.js
 // Add performance optimization utilities
 // Add theme switching utilities in utils.js
+// Add search query utilities in utils.js
