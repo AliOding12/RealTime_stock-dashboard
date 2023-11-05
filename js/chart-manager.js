@@ -8,3 +8,4 @@
 // Add dark mode support to charts
 // Add custom chart colors
 // Add watchlist chart integration
+// Add performance chart types
