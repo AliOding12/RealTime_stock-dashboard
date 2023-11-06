@@ -602,3 +602,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add error reporting settings in config.js
 // Add dark mode settings in config.js
 // Add watchlist settings in config.js
+// Add performance metrics settings
