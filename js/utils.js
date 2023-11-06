@@ -1532,3 +1532,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add theme switching utilities in utils.js
 // Add search query utilities in utils.js
 // Add data aggregation utilities
+// Add metrics calculation utilities
