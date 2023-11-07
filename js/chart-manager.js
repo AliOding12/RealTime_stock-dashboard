@@ -9,3 +9,4 @@
 // Add custom chart colors
 // Add watchlist chart integration
 // Add performance chart types
+// Add trend analysis charts
