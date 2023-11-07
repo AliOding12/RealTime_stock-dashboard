@@ -848,3 +848,4 @@ class StockDashboard {
 // Add dark mode toggle to dashboard.js
 // Add stock search functionality
 // Add data aggregation display
+// Add stock trend analysis
