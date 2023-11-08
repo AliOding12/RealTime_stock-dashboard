@@ -1533,3 +1533,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add search query utilities in utils.js
 // Add data aggregation utilities
 // Add metrics calculation utilities
+// Add trend calculation utilities
