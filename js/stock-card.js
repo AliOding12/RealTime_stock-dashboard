@@ -551,3 +551,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add theme support to stock-card.js
 // Add stock watchlist feature
 // Add stock performance metrics
+// Add trend indicators to stock-card.js
