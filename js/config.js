@@ -603,3 +603,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add dark mode settings in config.js
 // Add watchlist settings in config.js
 // Add performance metrics settings
+// Add trend analysis settings
