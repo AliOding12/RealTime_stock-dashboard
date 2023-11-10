@@ -1534,3 +1534,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add data aggregation utilities
 // Add metrics calculation utilities
 // Add trend calculation utilities
+// Add portfolio calculation utilities
