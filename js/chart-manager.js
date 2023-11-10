@@ -10,3 +10,4 @@
 // Add watchlist chart integration
 // Add performance chart types
 // Add trend analysis charts
+// Add portfolio charts
