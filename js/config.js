@@ -604,3 +604,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add watchlist settings in config.js
 // Add performance metrics settings
 // Add trend analysis settings
+// Add portfolio settings in config.js
