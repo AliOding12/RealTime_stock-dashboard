@@ -850,3 +850,4 @@ class StockDashboard {
 // Add data aggregation display
 // Add stock trend analysis
 // Add portfolio tracking feature
+// Add portfolio summary display
