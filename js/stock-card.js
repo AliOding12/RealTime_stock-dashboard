@@ -553,3 +553,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add stock performance metrics
 // Add trend indicators to stock-card.js
 // Add portfolio data to stock-card.js
+// Add export stock data feature
