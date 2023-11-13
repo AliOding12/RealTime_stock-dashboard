@@ -851,3 +851,4 @@ class StockDashboard {
 // Add stock trend analysis
 // Add portfolio tracking feature
 // Add portfolio summary display
+// Add export dashboard feature
