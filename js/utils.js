@@ -1536,3 +1536,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add trend calculation utilities
 // Add portfolio calculation utilities
 // Add data export utilities
+// Add CSV export utilities
