@@ -1537,3 +1537,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add portfolio calculation utilities
 // Add data export utilities
 // Add CSV export utilities
+// Optimize CSV export performance
