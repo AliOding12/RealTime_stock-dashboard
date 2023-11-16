@@ -606,3 +606,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add trend analysis settings
 // Add portfolio settings in config.js
 // Add export settings in config.js
+// Add CSV export settings
