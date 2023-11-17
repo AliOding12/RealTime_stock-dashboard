@@ -853,3 +853,4 @@ class StockDashboard {
 // Add portfolio summary display
 // Add export dashboard feature
 // Add CSV export for dashboard
+// Add data filtering in dashboard.js
