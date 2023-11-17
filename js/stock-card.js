@@ -555,3 +555,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add portfolio data to stock-card.js
 // Add export stock data feature
 // Add CSV export for stock data
+// Add filtering to stock-card.js
