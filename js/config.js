@@ -607,3 +607,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add portfolio settings in config.js
 // Add export settings in config.js
 // Add CSV export settings
+// Add filter settings in config.js
