@@ -556,3 +556,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add export stock data feature
 // Add CSV export for stock data
 // Add filtering to stock-card.js
+// Add animation to stock card updates
