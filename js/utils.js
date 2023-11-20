@@ -1539,3 +1539,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add CSV export utilities
 // Optimize CSV export performance
 // Add filtering utilities in utils.js
+// Add animation utilities in utils.js
