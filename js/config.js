@@ -608,3 +608,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add export settings in config.js
 // Add CSV export settings
 // Add filter settings in config.js
+// Add animation settings in config.js
