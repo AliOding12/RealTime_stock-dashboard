@@ -15,3 +15,4 @@
 // Add CSV export for charts
 // Add data filtering for charts
 // Add animation support to charts
+// Add real-time data streaming
