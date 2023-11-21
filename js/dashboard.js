@@ -855,3 +855,4 @@ class StockDashboard {
 // Add CSV export for dashboard
 // Add data filtering in dashboard.js
 // Add animation to dashboard transitions
+// Add streaming data display
