@@ -1540,3 +1540,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Optimize CSV export performance
 // Add filtering utilities in utils.js
 // Add animation utilities in utils.js
+// Add streaming data utilities
