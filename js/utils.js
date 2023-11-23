@@ -1564,3 +1564,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add data caching utilities in utils.js
 // Add performance optimization utilities in utils.js
 // Add metrics calculation utilities in utils.js
+// Add trend calculation utilities in utils.js
