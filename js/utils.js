@@ -1565,3 +1565,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add performance optimization utilities in utils.js
 // Add metrics calculation utilities in utils.js
 // Add trend calculation utilities in utils.js
+// Add portfolio calculation utilities in utils.js
