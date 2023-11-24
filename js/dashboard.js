@@ -856,3 +856,4 @@ class StockDashboard {
 // Add data filtering in dashboard.js
 // Add animation to dashboard transitions
 // Add streaming data display
+// Add user authentication to dashboard.js
