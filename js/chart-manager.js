@@ -17,3 +17,4 @@
 // Add animation support to charts
 // Add real-time data streaming
 // Optimize streaming performance
+// Add user-specific chart preferences
