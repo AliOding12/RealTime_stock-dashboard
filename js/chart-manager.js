@@ -18,3 +18,4 @@
 // Add real-time data streaming
 // Optimize streaming performance
 // Add user-specific chart preferences
+// Add offline support for charts
