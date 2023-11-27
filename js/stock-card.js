@@ -559,3 +559,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add animation to stock card updates
 // Add streaming data to stock-card.js
 // Add auth-based stock data access
+// Add user-specific stock preferences
