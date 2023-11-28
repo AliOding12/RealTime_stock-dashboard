@@ -858,3 +858,4 @@ class StockDashboard {
 // Add streaming data display
 // Add user authentication to dashboard.js
 // Add user profile display
+// Add offline dashboard support
