@@ -611,3 +611,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add animation settings in config.js
 // Add streaming settings in config.js
 // Add authentication settings in config.js
+// Add offline mode settings
