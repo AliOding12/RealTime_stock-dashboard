@@ -560,3 +560,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add streaming data to stock-card.js
 // Add auth-based stock data access
 // Add user-specific stock preferences
+// Add offline stock data display
