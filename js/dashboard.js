@@ -859,3 +859,4 @@ class StockDashboard {
 // Add user authentication to dashboard.js
 // Add user profile display
 // Add offline dashboard support
+// Add error logging for dashboard
