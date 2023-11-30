@@ -561,3 +561,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add auth-based stock data access
 // Add user-specific stock preferences
 // Add offline stock data display
+// Add error logging for stock cards
