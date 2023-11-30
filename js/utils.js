@@ -1544,3 +1544,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add authentication utilities in utils.js
 // Add user profile utilities
 // Add offline storage utilities
+// Add error logging utilities
