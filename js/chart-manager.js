@@ -19,3 +19,4 @@
 // Optimize streaming performance
 // Add user-specific chart preferences
 // Add offline support for charts
+// Add error logging for charts
