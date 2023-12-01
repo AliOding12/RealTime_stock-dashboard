@@ -612,3 +612,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add streaming settings in config.js
 // Add authentication settings in config.js
 // Add offline mode settings
+// Add error logging settings
