@@ -860,3 +860,4 @@ class StockDashboard {
 // Add user profile display
 // Add offline dashboard support
 // Add error logging for dashboard
+// Add unit tests for dashboard.js
