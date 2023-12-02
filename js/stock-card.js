@@ -562,3 +562,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add user-specific stock preferences
 // Add offline stock data display
 // Add error logging for stock cards
+// Add unit tests for stock-card.js
