@@ -613,3 +613,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add authentication settings in config.js
 // Add offline mode settings
 // Add error logging settings
+// Add test configuration settings
