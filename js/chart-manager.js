@@ -21,3 +21,4 @@
 // Add offline support for charts
 // Add error logging for charts
 // Add unit tests for chart-manager.js
+// Optimize chart data loading
