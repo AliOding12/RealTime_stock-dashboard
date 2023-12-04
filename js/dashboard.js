@@ -861,3 +861,4 @@ class StockDashboard {
 // Add offline dashboard support
 // Add error logging for dashboard
 // Add unit tests for dashboard.js
+// Optimize dashboard rendering
