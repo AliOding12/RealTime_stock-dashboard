@@ -1546,3 +1546,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add offline storage utilities
 // Add error logging utilities
 // Add unit tests for utils.js
+// Optimize utility functions
