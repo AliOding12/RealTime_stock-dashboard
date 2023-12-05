@@ -1547,3 +1547,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add error logging utilities
 // Add unit tests for utils.js
 // Optimize utility functions
+// Add accessibility utilities
