@@ -23,3 +23,4 @@
 // Add unit tests for chart-manager.js
 // Optimize chart data loading
 // Add accessibility features to charts
+// Add multilingual support to charts
