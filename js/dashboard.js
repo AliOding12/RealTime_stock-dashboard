@@ -863,3 +863,4 @@ class StockDashboard {
 // Add unit tests for dashboard.js
 // Optimize dashboard rendering
 // Add accessibility to dashboard.js
+// Add multilingual support to dashboard
