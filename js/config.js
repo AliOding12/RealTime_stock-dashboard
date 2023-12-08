@@ -615,3 +615,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add error logging settings
 // Add test configuration settings
 // Add accessibility settings
+// Add language settings in config.js
