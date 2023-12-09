@@ -864,3 +864,4 @@ class StockDashboard {
 // Optimize dashboard rendering
 // Add accessibility to dashboard.js
 // Add multilingual support to dashboard
+// Add annotation display in dashboard.js
