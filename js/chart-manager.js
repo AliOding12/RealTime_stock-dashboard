@@ -25,3 +25,4 @@
 // Add accessibility features to charts
 // Add multilingual support to charts
 // Add data annotation feature
+// Add custom annotation styles
