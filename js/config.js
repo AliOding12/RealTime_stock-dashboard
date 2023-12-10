@@ -616,3 +616,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add test configuration settings
 // Add accessibility settings
 // Add language settings in config.js
+// Add annotation settings in config.js
