@@ -866,3 +866,4 @@ class StockDashboard {
 // Add multilingual support to dashboard
 // Add annotation display in dashboard.js
 // Add custom annotation UI
+// Add performance dashboard
