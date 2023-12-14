@@ -867,3 +867,4 @@ class StockDashboard {
 // Add annotation display in dashboard.js
 // Add custom annotation UI
 // Add performance dashboard
+// Add compressed data display
