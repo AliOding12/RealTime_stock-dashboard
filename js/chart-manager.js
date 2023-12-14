@@ -27,3 +27,4 @@
 // Add data annotation feature
 // Add custom annotation styles
 // Add performance tracking for charts
+// Add compressed data support
