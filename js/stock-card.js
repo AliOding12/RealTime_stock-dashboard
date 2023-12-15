@@ -568,3 +568,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add multilingual support to stock-card.js
 // Add annotation support to stock-card.js
 // Add performance monitoring
+// Add compressed data to stock cards
