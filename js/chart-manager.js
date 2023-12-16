@@ -28,3 +28,4 @@
 // Add custom annotation styles
 // Add performance tracking for charts
 // Add compressed data support
+// Add data export to PDF
