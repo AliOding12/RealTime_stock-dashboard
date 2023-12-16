@@ -868,3 +868,4 @@ class StockDashboard {
 // Add custom annotation UI
 // Add performance dashboard
 // Add compressed data display
+// Add PDF export for dashboard
