@@ -1553,3 +1553,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add performance monitoring utilities
 // Add data compression utilities
 // Add compression utilities
+// Add PDF export utilities
