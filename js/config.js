@@ -619,3 +619,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add annotation settings in config.js
 // Add performance monitoring settings
 // Add compression settings
+// Add PDF export settings
