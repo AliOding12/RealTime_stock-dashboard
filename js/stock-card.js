@@ -570,3 +570,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add performance monitoring
 // Add compressed data to stock cards
 // Add PDF export for stock data
+// Add import support for stock data
