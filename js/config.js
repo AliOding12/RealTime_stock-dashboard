@@ -620,3 +620,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add performance monitoring settings
 // Add compression settings
 // Add PDF export settings
+// Add import settings in config.js
