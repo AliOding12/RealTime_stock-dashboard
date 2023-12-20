@@ -870,3 +870,4 @@ class StockDashboard {
 // Add compressed data display
 // Add PDF export for dashboard
 // Add data import UI
+// Add final optimizations to dashboard.js
