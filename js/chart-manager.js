@@ -30,3 +30,4 @@
 // Add compressed data support
 // Add data export to PDF
 // Add data import feature
+// Add final optimizations to chart-manager.js
