@@ -1555,3 +1555,4 @@ if (typeof module !== 'undefined' && module.exports) {
 // Add compression utilities
 // Add PDF export utilities
 // Add data import utilities
+// Add final optimizations to utils.js
