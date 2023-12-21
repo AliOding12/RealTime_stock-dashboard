@@ -31,3 +31,4 @@
 // Add data export to PDF
 // Add data import feature
 // Add final optimizations to chart-manager.js
+// Add final tests for chart-manager.js
