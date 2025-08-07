@@ -1,0 +1,153 @@
+# Stock Dashboard Apache Configuration
+# Enable rewrite engine
+RewriteEngine On
+
+# Security Headers
+Header always set X-Content-Type-Options nosniff
+Header always set X-Frame-Options DENY
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://www.alphavantage.co; font-src 'self'"
+
+# CORS Headers for API endpoints
+<FilesMatch "\.(php)$">
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+    Header always set Access-Control-Max-Age "3600"
+</FilesMatch>
+
+# Handle preflight OPTIONS requests
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L]
+
+# Cache static assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Images
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 year"
+    
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    
+    # Fonts
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+    
+    # Audio
+    ExpiresByType audio/mpeg "access plus 1 month"
+    ExpiresByType audio/wav "access plus 1 month"
+    
+    # HTML (short cache for dynamic content)
+    ExpiresByType text/html "access plus 1 hour"
+    
+    # XML and JSON (API responses)
+    ExpiresByType application/xml "access plus 0 seconds"
+    ExpiresByType text/xml "access plus 0 seconds"
+    ExpiresByType application/json "access plus 0 seconds"
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+    # Compress HTML, CSS, JavaScript, Text, XML and fonts
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/rss+xml
+    AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+    AddOutputFilterByType DEFLATE application/x-font
+    AddOutputFilterByType DEFLATE application/x-font-opentype
+    AddOutputFilterByType DEFLATE application/x-font-otf
+    AddOutputFilterByType DEFLATE application/x-font-truetype
+    AddOutputFilterByType DEFLATE application/x-font-ttf
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/xhtml+xml
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE font/opentype
+    AddOutputFilterByType DEFLATE font/otf
+    AddOutputFilterByType DEFLATE font/ttf
+    AddOutputFilterByType DEFLATE image/svg+xml
+    AddOutputFilterByType DEFLATE image/x-icon
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/xml
+</IfModule>
+
+# Directory Protection
+Options -Indexes
+
+# Protect sensitive files
+<FilesMatch "^(composer\.(json|lock)|\.env|\.git.*|.*\.log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect cache and data directories
+<Directory "data/">
+    <FilesMatch "\.(php|html|htm)$">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+</Directory>
+
+<Directory "data/cache/">
+    Options -Indexes
+    <FilesMatch "\.(xml|json|log)$">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+</Directory>
+
+<Directory "data/logs/">
+    Options -Indexes
+    Order allow,deny
+    Deny from all
+</Directory>
+
+# Custom error pages
+ErrorDocument 404 /error-pages/404.html
+ErrorDocument 500 /error-pages/500.html
+ErrorDocument 403 /error-pages/403.html
+
+# URL Rewriting for clean URLs (optional)
+# Uncomment if you want clean URLs like /api/stocks instead of /php/get_stock_data.php
+# RewriteRule ^api/stocks/?$ php/get_stock_data.php [L,QSA]
+# RewriteRule ^api/health/?$ php/health_check.php [L,QSA]
+
+# Force HTTPS (uncomment if you have SSL)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# PHP Configuration (if not set globally)
+<IfModule mod_php7.c>
+    php_value max_execution_time 30
+    php_value memory_limit 128M
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+    php_value max_input_vars 1000
+    php_flag display_errors Off
+    php_flag log_errors On
+    php_value error_log "data/logs/php_errors.log"
+</IfModule>
+
+# Browser caching with ETags
+FileETag MTime Size
+
+# Remove server signature
+ServerTokens Prod
+
+# Prevent access to backup files
+<FilesMatch ".*\.(bak|backup|old|orig|tmp|temp)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
